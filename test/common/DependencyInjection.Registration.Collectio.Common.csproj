@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="DependencyInjection.Registration.Collectio.UnitTests" />
+        <InternalsVisibleTo Include="DependencyInjection.Registration.Collectio.IntegrationTests" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\DependencyInjection.Registration.Collectio.csproj" />
+    </ItemGroup>
+
+</Project>
